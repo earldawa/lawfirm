@@ -1,0 +1,94 @@
+    body {
+        background-position: center;
+        background-size: cover;
+        background-image: url(files/lawyer-1310.jpg);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu {
+        width: 350px;
+        float: right;
+        height: 70px;
+    }
+    
+    ul {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    ul li {
+        list-style: none;
+        margin-left: 32px;
+        margin-top: 27px;
+        font-size: 14px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: tomato;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+        font-size: 14px;
+    }
+    
+    ul li a:hover {
+        color: aqua;
+    }
+    
+    .search {
+        margin-top: 27px;
+        padding: 13px;
+        display: flex;
+        float: right;
+        margin-left: 65px;
+    }
+    
+    .srch {
+        width: 450px;
+        display: flex;
+    }
+    
+    .btn {
+        color: tomato;
+        background-color: darkgrays;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        box-sizing: content-box;
+    }
+    
+    .btn:hover {
+        color: aqua;
+    }
+    
+    .amani {
+        color: tomato;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 0%;
+        padding: 0;
+        font-style: italic;
+    }
+    
+    .logo {
+        width: 7rem;
+        height: 7rem;
+        float: inline-start;
+        border-radius: 5rem;
+    }
+    
+    .intro {
+        display: flex;
+    }
+    
+    ul.abt {
+        font-size: 18px;
+        font-weight: bold;
+        color: blue;
+        background-color: tomato;
+    }
